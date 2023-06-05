@@ -1,0 +1,22 @@
+{
+    "name": "wonder/otp-authentication",
+    "description": "A project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "models/",
+            "Module\\": "modules/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WilliamOnyejiaka",
+            "email": "williamonyejiaka08062528003@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master",
+        "william-onyejiaka/wonder_ral_v3": "dev-main"
+    }
+}
